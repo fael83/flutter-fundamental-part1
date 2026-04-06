@@ -1,11 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:hello_world/basic_widgets/fab_widget.dart';
-import 'package:hello_world/basic_widgets/loading_cupertino.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
